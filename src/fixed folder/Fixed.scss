@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    padding: 0;
+
+    .image {
+        background-image: url("../background/background.png");
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 1330px;
+        height: 1900px;
+
+        .icon_1 {
+            margin: 20px;
+        }
+
+        .paragraph {
+            color: #fff;
+            margin: 10px;
+        }
+
+        .icon_2 {
+            margin: 20px;
+        }
+
+        .icon_3 {
+            margin: 20px;
+        }
+    }
+}
