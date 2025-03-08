@@ -1,0 +1,66 @@
+.location_main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 48px 0;
+  background-image: url('../../images/location_background.png');
+  border: 12px;
+
+  .location_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    padding: 30px;
+    width: 80%;
+    background-color: rgba(240, 240, 240, 0.7);
+    border-radius: 24px;
+
+    .location_text {
+      text-align: center;
+      font-family: Arial, sans-serif;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 23px;
+    }
+    @media only screen and (max-width: 500px) {
+      .location_text {
+        font-size: 15px;
+        line-height: 18px;
+      }
+    }
+
+    .location_img_div{
+      display: flex;
+      justify-content: center;
+      width: 100%;
+      .location_img {
+        width: 100%;
+        max-width: 550px;
+        padding: 12px 0;
+        border-radius: 36px;
+      }
+    }
+
+    .location_map {
+      align-items: center;
+      background-color: #000000;
+      color: #ffffff;
+      font-family: sans-serif;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 21px;
+      padding: 8px 18px;
+      border-radius: 10px;
+      border: none;
+      cursor: pointer;
+    }
+  }
+  @media only screen and (max-width: 500px) {
+    .location_content {
+      gap: 16px;
+    }
+  }
+}

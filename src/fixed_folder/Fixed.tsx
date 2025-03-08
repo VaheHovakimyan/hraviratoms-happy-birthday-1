@@ -1,3 +1,6 @@
+import icon_1 from '../images/fixed/icon_1.png';
+import icon_2 from '../images/fixed/icon_2.webp';
+import icon_3 from '../images/fixed/icon_3.jpg';
 import './Fixed.scss';
 
 
@@ -7,7 +10,7 @@ function Fixed() {
         <div className="image">
 
         <div>
-            <img src="./icon/icon_1.png" alt="icon" width="1200px" height="420px" className="icon_1" />
+            <img src={icon_1} alt="icon_1" width="1200px" height="420px" className="icon_1" />
             <p className="paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa vel magnam esse? Amet
                 rerum earum eum
                 magnam aliquam vero illo optio, libero voluptates ullam harum dicta possimus eligendi autem quod.
@@ -26,7 +29,7 @@ function Fixed() {
         </div>
 
         <div>
-            <img src="./icon/icon_2.webp" alt="icon" width="1200" height="500px" className="icon_2" />
+            <img src={icon_2} alt="icon" width="1200" height="500px" className="icon_2" />
             <p className="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi porro mollitia quos
                 suscipit ipsa, perferendis eos qui quod quia, assumenda distinctio molestias officiis perspiciatis
                 temporibus culpa minima debitis ut quas aperiam. Magnam nesciunt aut at tempora quod necessitatibus. Ut
@@ -51,7 +54,7 @@ function Fixed() {
         </div>
 
         <div>
-            <img src="./icon/icon_3.jpg" alt="icon" width="1200" height="400px" className="icon_3" />
+            <img src={icon_3} alt="icon" width="1200" height="400px" className="icon_3" />
         </div>
 
     </div>
