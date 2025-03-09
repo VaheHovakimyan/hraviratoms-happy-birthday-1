@@ -1,11 +1,12 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Fixed from './fixed_folder/Fixed';
 import Footer from './components/footer/Footer';
 
 function App() {
   return (
     <div className="App">
+      <Fixed />
       <Footer />
     </div>
   );
