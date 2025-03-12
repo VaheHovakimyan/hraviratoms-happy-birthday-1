@@ -20,7 +20,6 @@ const ContactOwnerForm: FC = () => {
       <Formik
         initialValues={initialValue}
         onSubmit={async (values) => {
-          console.log("values", values);
           await sendInviteRequest({ ...values, phone });
         }}
       >

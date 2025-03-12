@@ -23,11 +23,6 @@ const Footer: FC = () => {
           <img src={footer_icon} alt="footer_icon" width="24px" height="24px" />
           <p>+374 77 49 75 15</p>
         </div>
-
-        <div className="footer_number_child">
-          <img src={footer_icon} alt="footer_icon" width="24px" height="24px" />
-          <p>+374 77 49 75 15</p>
-        </div>
       </div>
 
       <div className="mail_hraviratoms">
