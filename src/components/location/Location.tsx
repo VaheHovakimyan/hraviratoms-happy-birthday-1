@@ -7,7 +7,6 @@ interface LocationComponentProps {
 }
 
 const Location: FC<LocationComponentProps> = ({locationData}) => {
-
   const {name, background, link} = locationData;
 
   return (

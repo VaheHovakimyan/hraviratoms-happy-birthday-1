@@ -1,10 +1,10 @@
 import { FC } from "react";
-import footer_icon from '../../images/icons/tel_icon.svg';
-import footer_mail from '../../images/footer/mail_hraviratoms.svg';
-import footer_facebook_icon from '../../images/footer/facebook_icon.svg';
-import footer_instagram_icon from '../../images/footer/instagram_icon.svg';
-import footer_tiktok_icon from '../../images/footer/tik-tok.svg';
-import footer_logo from '../../images/footer/footer_logo.png';
+import footer_icon from '../../media/images/icons/tel_icon.svg';
+import footer_mail from '../../media/images/footer/mail_hraviratoms.svg';
+import footer_facebook_icon from '../../media/images/footer/facebook_icon.svg';
+import footer_instagram_icon from '../../media/images/footer/instagram_icon.svg';
+import footer_tiktok_icon from '../../media/images/footer/tik-tok.svg';
+import footer_logo from '../../media/images/footer/footer_logo.png';
 import './Footer.scss';
 
 const Footer: FC = () => {

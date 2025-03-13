@@ -2,7 +2,7 @@ import { FC, useState } from "react";
 import { Formik, Form, Field } from 'formik';
 import { sendInviteRequest } from '../../api/invite-api';
 import { PhoneInput } from 'react-international-phone';
-import person_icon from '../../images/contact/person_icon.svg';
+import person_icon from '../../media/images/contact/person_icon.svg';
 import { IGuest } from "../../common/type";
 import './ContactOwnerForm.scss';
 

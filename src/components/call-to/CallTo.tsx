@@ -1,5 +1,5 @@
 import { FC } from "react";
-import telephone_icon from '../../images/icons/tel_icon.svg';
+import telephone_icon from '../../media/images/icons/tel_icon.svg';
 import './CallTo.scss';
 
 const CallTo: FC = () => {
