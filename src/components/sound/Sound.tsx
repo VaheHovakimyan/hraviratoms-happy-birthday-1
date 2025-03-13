@@ -1,33 +1,32 @@
-import { FC, useEffect, useState } from "react";
+import { useState } from "react";
+import { Howl } from "howler";
 import VolumeUpIcon from '@mui/icons-material/VolumeUp';
 import VolumeOffIcon from '@mui/icons-material/VolumeOff';
 import './Sound.scss';
 
+const sound = new Howl({
+  src: ["/happy_birthday_sound.mp3"],
+  volume: 1.0,
+  loop: false,
+});
 
-const Sound: FC = () => {
-  const [isPlay, setPlay] = useState<boolean | null>(true);
-  const [audio] = useState(new Audio("/happy_birthday_sound.mp3"));
+const Sound = () => {
+  const [isPlaying, setIsPlaying] = useState(false);
 
-  const togglePLay = () => {
-    if (isPlay) {
-      audio.play();
+  const togglePlay = () => {
+    if (isPlaying) {
+      sound.pause();
     } else {
-      audio.pause();
+      sound.play();
     }
-    setPlay(!isPlay);
-  }
-
-  useEffect((): void => {
-    if(!isPlay){
-      audio.play();
-    }
-  }, [audio]);
+    setIsPlaying(!isPlaying);
+  };
 
   return (
-    <div className="sound_div" onClick={togglePLay}>
-      {!isPlay ? <VolumeUpIcon /> : <VolumeOffIcon />}
-    </div>
+    <button className="sound_div" onClick={togglePlay}>
+      {isPlaying ? <VolumeUpIcon /> : <VolumeOffIcon />}
+    </button>
   );
-}
+};
 
 export default Sound;
