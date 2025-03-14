@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { Howl } from "howler";
 import VolumeUpIcon from '@mui/icons-material/VolumeUp';
 import VolumeOffIcon from '@mui/icons-material/VolumeOff';
@@ -21,6 +21,10 @@ const Sound = () => {
     }
     setIsPlaying(!isPlaying);
   };
+
+  useEffect(() => {
+    togglePlay();
+  }, []);
 
   return (
     <button className="sound_div" onClick={togglePlay}>
