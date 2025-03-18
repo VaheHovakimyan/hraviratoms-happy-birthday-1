@@ -27,7 +27,7 @@ const Footer: FC = () => {
 
       <div className="mail_hraviratoms">
         <img src={footer_mail} alt="" width="24px" height="24px" />
-        <a href="Hraviratoms.com@gmail.com" target="_blank"><span>hraviratoms.com@gmail.com</span></a>
+        <a href="mailto:Hraviratoms.com@gmail.com" target="_blank"><span>hraviratoms.com@gmail.com</span></a>
       </div>
 
       <div className="footer_divider">
