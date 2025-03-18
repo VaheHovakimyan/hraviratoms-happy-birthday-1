@@ -21,13 +21,13 @@ const Footer: FC = () => {
       <div className="footer_number">
         <div className="footer_number_child">
           <img src={footer_icon} alt="footer_icon" width="24px" height="24px" />
-          <p>+374 77 49 75 15</p>
+          <a href="tel:+37477497515"><p>+374 77 49 75 15</p></a>
         </div>
       </div>
 
       <div className="mail_hraviratoms">
         <img src={footer_mail} alt="" width="24px" height="24px" />
-        <span>hraviratoms.com@gmail.com</span>
+        <a href="Hraviratoms.com@gmail.com" target="_blank"><span>hraviratoms.com@gmail.com</span></a>
       </div>
 
       <div className="footer_divider">
@@ -35,9 +35,15 @@ const Footer: FC = () => {
       </div>
 
       <div className="contacts_hraviratoms">
-        <img src={footer_facebook_icon} alt="facebook_icon" width="30px" height="30px" />
-        <img src={footer_instagram_icon} alt="instagram_icon" width="30px" height="30px" />
-        <img src={footer_tiktok_icon} alt="tiktok_icon" width="30px" height="30px" />
+        <a href="https://www.facebook.com/share/1Bo7zzyW7E/?mibextid=wwXIfr" target="_blank">
+          <img src={footer_facebook_icon} alt="facebook_icon" width="30px" height="30px" />
+        </a>
+        <a href="https://www.instagram.com/hraviratoms_com?igsh=MTFwczgyaXpsMXVidw%3D%3D&utm_source=qr" target="_blank">
+          <img src={footer_instagram_icon} alt="instagram_icon" width="30px" height="30px" />
+        </a>
+        <a href="#" target="_blank">
+          <img src={footer_tiktok_icon} alt="tiktok_icon" width="30px" height="30px" />
+        </a>
       </div>
 
     </div>
