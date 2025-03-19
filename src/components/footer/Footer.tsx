@@ -21,13 +21,13 @@ const Footer: FC = () => {
       <div className="footer_number">
         <div className="footer_number_child">
           <img src={footer_icon} alt="footer_icon" width="24px" height="24px" />
-          <a href="tel:+37477497515"><p>+374 77 49 75 15</p></a>
+          <a href="tel:+37477497515"><p className="footer_number_child_2">+374 77 49 75 15</p></a>
         </div>
       </div>
 
       <div className="mail_hraviratoms">
         <img src={footer_mail} alt="" width="24px" height="24px" />
-        <a href="Hraviratoms.com@gmail.com" target="_blank"><span>hraviratoms.com@gmail.com</span></a>
+        <a href="mailto:example@example.com?subject=Without%20Minimum%20Subject&body=As%20a%20letter" target="_blank" className="mail_hraviratoms_child">hraviratoms.com@gmail.com</a>
       </div>
 
       <div className="footer_divider">
