@@ -25,7 +25,7 @@ const ContactOwnerForm: FC = () => {
       >
         {({ values, isValid, handleChange }) => (
           <Form>
-            <div className="contact_main_div">
+            <div className="contact_main_div" id="form">
 
               <h3 className="contact_div_title">Պատասխան կարող եք ուղարկել մինչև 15.07.2025թ</h3>
 

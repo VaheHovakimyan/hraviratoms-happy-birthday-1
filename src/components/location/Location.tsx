@@ -5,7 +5,7 @@ import './Location.scss';
 const Location: FC = () => {
 
   const locationData: any = {
-    name: 'Հարսանյաց հանդեսը տեղի կունենա “Նոր Դվին” ռեստորանում',
+    name: 'Ծննդյան տարեդարձը նշելու ենք “Նոր Դվին” ռեստորանում',
     background: restaurant_icon,
     link: 'https://www.google.com/maps/search/?api=1&query=Restaurant+Nor+Dvin+Armenia'
   }

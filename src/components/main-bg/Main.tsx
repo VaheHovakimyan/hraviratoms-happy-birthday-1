@@ -21,8 +21,14 @@ const Main: FC = () => {
                     <h1 className='invite_title'>Սիրով հրավիրում ենք Ձեզ նշելու Դավիթի 20 ամյակը</h1>
                 </div>
 
+                <a href='#form'>
+                    <div className='link_to_form'>
+                        <span>Ներկա կլի՞նեք</span>
+                    </div>
+                </a>
+
                 <Location />
-                
+
                 {/* <div style={{ display: 'flex', justifyContent: 'center', width: '100%' }}>
                 <div data-aos="zoom-in">
                     <div style={{ width: '500px', height: '400px', background: 'blue' }}></div>
