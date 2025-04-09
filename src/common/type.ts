@@ -3,6 +3,7 @@ import { ReactElement } from "react";
 export interface IGuest {
   name: string;
   phone?: string;
+  guestCount: number;
   isVisiting: string;
 }
 

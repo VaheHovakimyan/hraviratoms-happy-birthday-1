@@ -1,7 +1,7 @@
 import { IGuest } from "../common/type";
 
 export const sendInviteRequest = async (values: IGuest) => {
-  await fetch(`${process.env.REACT_APP_API_PROD}/api/create`, {
+  await fetch(`${process.env.REACT_APP_API_PROD}/api/hraviratoms-happy-day/create`, {
     method: "POST",
     body: JSON.stringify(values),
     headers: {
@@ -11,5 +11,5 @@ export const sendInviteRequest = async (values: IGuest) => {
 }
 
 export const getGuests = async () => {
- return await fetch(`${process.env.REACT_APP_API_PROD}/api/guests`);
+ return await fetch(`${process.env.REACT_APP_API_PROD}/api/hraviratoms-happy-day/guests`);
 }

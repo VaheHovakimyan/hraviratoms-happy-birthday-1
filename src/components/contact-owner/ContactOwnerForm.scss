@@ -1,3 +1,25 @@
+// Templates
+
+%submit_button{
+  padding: 12px 24px;
+  max-width: 900px;
+  width: 100%;
+  border-radius: 30px;
+  border: 1px #000000 solid;
+  background-color: #1e1e1e;
+  color: #fffdfd;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  align-items: center;
+  text-transform: capitalize;
+  transition: all 0.3s ease-in;
+  cursor: pointer;
+}
+
+
+// Style
 .contact_main_div {
   min-height: 500px;
   width: 100%;
@@ -80,7 +102,7 @@
       justify-content: center;
       align-items: center;
       .contact_paragraph {
-        padding: 10px 0;
+        padding: 10px 0 2px 0;
         color: #1e1e1e;
         font-family: Arial, Helvetica, sans-serif;
         font-weight: 400;
@@ -102,25 +124,17 @@
         font-size: 25px;
         line-height: 28.75px;
         text-align: center;
-        padding: 4px 20px;
+        padding: 0 20px 4px 20px;
         .contact_radio_label {
           padding: 8px;
         }
       }
       .contact_button {
-        padding: 12px 24px;
-        max-width: 900px;
-        width: 100%;
-        border-radius: 30px;
-        border: 1px #000000 solid;
-        background-color: #1e1e1e;
-        color: #fffdfd;
-        font-family: Arial, Helvetica, sans-serif;
-        font-weight: 400;
-        font-size: 20px;
-        line-height: 23px;
-        align-items: center;
-        cursor: pointer;
+        @extend %submit_button;
+      }
+      .contact_button_disabled{
+        @extend %submit_button;
+        opacity: 0.5;
       }
     }
   }
