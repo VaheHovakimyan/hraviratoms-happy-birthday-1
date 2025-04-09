@@ -45,7 +45,7 @@ const ContactOwnerForm: FC = () => {
             <Toaster 
              position="top-right"
              toastOptions={{
-               duration: 2000,
+               duration: 3000,
                style: {
                  marginTop: '120px'
                },
