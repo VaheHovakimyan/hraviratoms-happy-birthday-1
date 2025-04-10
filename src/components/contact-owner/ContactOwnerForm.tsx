@@ -43,6 +43,13 @@ const ContactOwnerForm: FC = () => {
         {({ values, isValid, handleChange }) => (
           <Form>
             <div className="contact_main_div" id="form">
+            <div style={{display: 'flex', justifyContent: 'center', margin: 'auto', background:'rgba(255, 255, 255, 0.4)', padding: '48px', borderRadius: '16px'}}>    <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center',  gap: '12px'}}>
+        <h2 style={{fontSize: '35px', color:'white'}}>Dress code</h2>        <div style={{display: 'flex', justifyContent: 'center'}}>
+            <div style={{background: '#FF69B4', borderRadius: '50%', width: '50px', height: '50px', border: '1px white solid', marginLeft: '8px'}}></div>            <div style={{background: '#FFF44F', borderRadius: '50%', width: '50px', height: '50px', border: '1px white solid', marginLeft: '-8px'}}></div>
+            <div style={{background: '#87CEEB', borderRadius: '50%', width: '50px', height: '50px', border: '1px white solid', marginLeft: '-8px'}}></div>            <div style={{background: '#FFFFFF', borderRadius: '50%', width: '50px', height: '50px', border: '1px white solid', marginLeft: '-8px'}}></div>
+            <div style={{background: '#98FF98', borderRadius: '50%', width: '50px', height: '50px', border: '1px white solid', marginLeft: '-8px'}}></div>        </div>
+        <p style = {{color: 'white', fontSize: '24px'}}>Խնդրում ենք ներկայանալ այս գույների հագուստով</p>    </div>
+</div>
               <h3 className="contact_div_title">Պատասխան կարող եք ուղարկել մինչև 15.07.2025թ</h3>
 
               <div className="contact_form">

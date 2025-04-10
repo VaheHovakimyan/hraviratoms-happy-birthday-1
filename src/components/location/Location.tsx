@@ -24,8 +24,10 @@ const Location: FC = () => {
          <div>
           <a className="location_map" href={locationData.link} target="_blank">Քարտեզ</a>
          </div>
+
       </div>
     </div>
+
   )
 }
 
