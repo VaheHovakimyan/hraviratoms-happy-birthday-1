@@ -48,7 +48,7 @@ const ContactOwnerForm: FC = () => {
             <div style={{background: '#FF69B4', borderRadius: '50%', width: '50px', height: '50px', border: '1px white solid', marginLeft: '8px'}}></div>            <div style={{background: '#FFF44F', borderRadius: '50%', width: '50px', height: '50px', border: '1px white solid', marginLeft: '-8px'}}></div>
             <div style={{background: '#87CEEB', borderRadius: '50%', width: '50px', height: '50px', border: '1px white solid', marginLeft: '-8px'}}></div>            <div style={{background: '#FFFFFF', borderRadius: '50%', width: '50px', height: '50px', border: '1px white solid', marginLeft: '-8px'}}></div>
             <div style={{background: '#98FF98', borderRadius: '50%', width: '50px', height: '50px', border: '1px white solid', marginLeft: '-8px'}}></div>        </div>
-        <p style = {{color: 'white', fontSize: '24px'}}>Խնդրում ենք ներկայանալ այս գույների հագուստով</p>    </div>
+        <p style = {{color: 'white', fontSize: '24px', textAlign: 'center'}}>Խնդրում ենք ներկայանալ այս գույների հագուստով</p>    </div>
 </div>
               <h3 className="contact_div_title">Պատասխան կարող եք ուղարկել մինչև 15.07.2025թ</h3>
 
